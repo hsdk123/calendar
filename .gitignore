@@ -1,0 +1,9 @@
+# exclude directories
+.vs/*
+.vscode/*
+*.DS_Store
+
+CMakeFiles/*
+_deps/*
+out/*
+
