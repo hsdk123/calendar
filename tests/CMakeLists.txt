@@ -25,10 +25,6 @@ target_include_directories(test_CoreCalendar PUBLIC
 	${PROJECT_SOURCE_DIR}/src/
 )
 
-target_sources(test_CoreCalendar PRIVATE
-main.cpp
-)
-
 # Subdirectories
-#add_subdirectory(Code)
+add_subdirectory(calendars)
 
