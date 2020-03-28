@@ -27,4 +27,4 @@ target_include_directories(test_CoreCalendar PUBLIC
 
 # Subdirectories
 add_subdirectory(calendars)
-
+add_subdirectory(converters)
