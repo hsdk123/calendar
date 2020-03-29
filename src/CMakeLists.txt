@@ -4,8 +4,8 @@ add_library(CoreCalendar STATIC)
 target_include_directories(CoreCalendar PUBLIC ./)
 
 # subdirectories
-add_subdirectory(calendars)
-add_subdirectory(converters)
+add_subdirectory(secalendars)
+add_subdirectory(seframeworks)
 
 #-----------------------------------------------------------------------------
 include(FetchContent)
